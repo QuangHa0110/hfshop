@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://p.w3layouts.com/demos_new/template_demo/05-06-2017/existing_login_form-demo_Free/1043085537/web/images/b2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.login h1 {
+    font-size: 45px;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    margin-bottom: 65px;
+    color: white;
+}
+
+.login form {
+    width: 570px;
+    background-color: #00000094;
+    padding: 32px;
+}
+
+form h2 {
+    text-transform: uppercase;
+    color: #ffffffb3;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+form .username {
+    width: 70%;
+    padding: 12px;
+    margin-bottom: 24px;
+    border: 2px solid #537b35;
+    font-size: 14px;
+    color: white;
+    outline: none;
+    background: #00000085;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+form .password {
+    width: 70%;
+    padding: 12px;
+    margin-bottom: 24px;
+    border: 2px solid #537b35;
+    font-size: 14px;
+    color: white;
+    outline: none;
+    background: #00000085;
+}
+
+form .after-password {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.after-password .remember-me {}
+
+.after-password .forgot-password {
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+    visibility: visible;
+}
+
+.after-password .forgot-password:hover {
+    color: #008000bd;
+}
+
+form .submit {
+    padding: 10px 75px;
+    color: white;
+    background: green;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+form .submit:hover {
+    background: #ffffffab;
+    color: #008027f7;
+}
+
+form .after-login {
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.after-login p {}
+
+.after-login i {}
+
+.after-login a {
+    text-decoration: none;
+    padding: 10px;
+    border: solid 1px white;
+    color: white;
+    transition: 0.4s;
+}
+
+.after-login a:hover {border-color: green;color: green;}
